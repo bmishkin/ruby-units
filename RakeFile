@@ -23,7 +23,7 @@ Several convenience methods that ruby-units added to the string class have
 been deprecated in this release.  These methods include String#to, String#from, String#ago, String#before and others.
 If your code relies on these functions, they can be added back by adding this line to your code.
 
-require 'ruby-units/string/extras'
+# require 'ruby-units/string/extras'
 # note that these methods do not play well with Rails, which is one of the reasons they are being removed.
 
 The extra functions mostly work the same, but will no longer properly handle cases when they are called with strings..
